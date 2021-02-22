@@ -10,7 +10,7 @@ public class TestController {
 
     @PostMapping
     public void process(@RequestBody Subscription subscription) {
-        // by this moment we already have dates with server time
+        // by this moment we already have dates of object subscription with server time
 
         // calling service methods...
     }
