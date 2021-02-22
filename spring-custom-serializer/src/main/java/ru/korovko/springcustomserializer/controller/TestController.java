@@ -11,7 +11,7 @@ public class TestController {
     @PostMapping
     public void process(@RequestBody Subscription subscription) {
         // by this moment we already have dates with server time
-        System.err.println(subscription.getStartDate() + ", " + subscription.getEndDate());
+
         // calling service methods...
     }
 }
